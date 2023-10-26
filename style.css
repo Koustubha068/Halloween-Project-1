@@ -6,6 +6,7 @@ html,body{
     justify-content:center;
     align-items:center;
     overflow:hidden;
+    background-image:linear-gradient(rgba(255, 0, 0, 0.712),rgb(228, 140, 8),rgb(209, 119, 15));
 }
 .container{
     display:flex;
@@ -156,4 +157,16 @@ html,body{
     50%{
         transofrm:scale(0.8);
     }
+  }
+  .pumpkin .hand-left {
+    background: #f68632;
+    height: 5em;
+    width: 1.25em;
+    position: absolute;
+    left: calc(21em - 22.8em);
+    top: 8em;
+    transform: rotate(50deg);
+    border-radius: 15% 40% 70% 20%;
+    z-index: -1;
+    box-shadow: inset 2px 2px 10px #401d03;
   }
