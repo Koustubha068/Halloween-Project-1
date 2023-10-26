@@ -170,3 +170,15 @@ html,body{
     z-index: -1;
     box-shadow: inset 2px 2px 10px #401d03;
   }
+  .pumpkin .hand-right {
+    background: #f68632;
+    height: 5em;
+    width: 1.25em;
+    position: absolute;
+    left: calc(38em - 22.8em);
+    top: 5.3em;
+    transform: rotate(50deg);
+    border-radius: 75% 1% 65% 75%;
+    z-index: -1;
+    box-shadow: inset 2px 2px 10px #401d03;
+  }
