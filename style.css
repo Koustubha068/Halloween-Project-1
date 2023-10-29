@@ -199,7 +199,7 @@ html,body{
     height: 3em;
     width: 1.25em;
     position: absolute;
-    left: calc(50em - 30em);
+    left: calc(50em - 41em);
     top: 11.3em;
     transform: rotate(180deg);
     border-radius: 10% 10% 10% 10%;
